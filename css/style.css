@@ -1,0 +1,366 @@
+/* global */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
+    /*временно светлее фон*/
+    background-color: #fafafa;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.visual-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0000);
+    overflow: hidden;
+}
+
+/* home */
+
+.home__wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #32353b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+    background-image: url("/img/homebackgraund.png");
+}
+
+.home__wrapper--backgraund {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__logo {
+    display: flex;
+    padding: 30vh;
+    margin: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/img/logo_home.png");
+}
+
+.home__welcome-wrapper {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.home__welcome-item {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: 0.3em;
+    opacity: 0.7;
+}
+
+.home__welcome-item--line{
+    font-size: 0.8rem;
+}
+
+.home__welcome-item--linetwo{
+    font-size: 0.9rem;
+    text-transform: lowercase;
+}
+
+.home__nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    width: 31em;
+}
+
+.home__nav li {
+    display: flex;
+    padding: 0;
+}
+
+.home__item {
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 1em;
+    font-size: 0.8rem;
+    text-decoration: none;
+    width: 8em;
+    height: 2em;
+    text-align: center;
+    padding: 0.4em;
+    border-bottom: 1px solid #363941;
+}
+
+.home__nav a:hover {
+    background-color: #282c36;
+}
+
+.home__nav a:focus {
+    background-color: #282c36;
+    outline: none;
+}
+
+@media (max-width: 550px) {
+    .home__wrapper--backgraund {
+    justify-content: center;
+    }
+
+    .home__logo {
+        padding: 25vh;
+    }
+
+    .home__welcome-wrapper {
+        text-align: center;
+    }
+
+    .home__weclome-item {
+        font-size: 1.4rem;
+        min-width: 10em;
+        margin: 0;
+    }
+
+    .home__nav {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .home__nav li {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .home__item {
+        width: 100%;
+        margin-top: 0.5em;
+        font-size: 1.4rem;
+        min-width: 9em;
+    }
+}
+
+/* nav */
+
+.nav {
+    font-family: 'Cormorant', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*временно для границ*/
+    background-color: #eeeeee;
+}
+
+.nav__title {
+    text-align: center;
+}
+
+.nav__logo {
+    text-align: center;
+}
+
+.nav__logo-name {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+.nav__title-text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 0.7em;
+}
+
+.nav__item-wrapper {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.nav__menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__item {
+    margin: 0;
+    margin-top: 0.6em;
+    padding: 0.5em;
+}
+
+.nav__blog {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.nav__about {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.nav__item--backgraund a {
+    text-decoration: none;
+    color: #000000;
+    opacity: 0.7;
+    padding: 0.1em 0.3em;
+    border-radius: 0.7em;
+}
+
+.nav__bird-logo-link {
+    width: 1.3em;
+    height: auto;
+}
+
+.nav__bird-logo a {
+    padding: 0.7em 0.1em 0.1em 0.1em;color: #000000;
+    opacity: 0.7;
+    border-radius: 0.6em;
+}
+
+.nav__item--backgraund a:hover {
+    background-color: #282c36;
+    color: #ffffff;
+    transition: 400ms;
+}
+
+.nav__item--backgraund a:focus {
+    background-color: #282c36;
+    color: #ffffff;
+    outline: none;
+}
+
+
+.nav__bird-logo a:focus {
+    background-color: #ffffff;
+    outline: none;
+}
+
+@media (max-width: 550px) {
+    .nav {
+        padding: 0.2em;
+    }
+
+    .nav__logo {
+        width: 100%;
+        order: 1;
+    }
+
+    .nav__logo-name {
+        font-size: 2.4rem;
+        margin-bottom: 0.5em;
+    }
+
+    .nav__title {
+        width: 100%;
+        order: 3;
+    }
+
+    .nav__title h3 {
+        white-space: nowrap;
+    }
+
+    .nav__title-text {
+        margin-top: 0;
+        font-size: 2.4rem;
+        padding: 0.2em;
+    }
+
+    .nav__item-wrapper {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+
+    .nav__menu {
+        flex-direction: column;
+    }
+    .nav__item {
+        padding: 0;
+        margin-top: 0.2em;
+        font-size: 1.7rem;
+        border-radius: 0.5em;
+    }
+
+    .nav__item--backgraund {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .nav__bird-logo {
+        width: 1.6em;
+        align-self: center;
+    }
+    .nav__item {
+        list-style: none;
+
+    }
+
+    .nav__item a {
+        display: flex;
+        justify-content: center;
+        border-radius: 0.5em;
+    }
+
+    .nav__bird-logo a {
+        padding: 0.1em 0.3em;
+        background-color: none;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .nav__logo-name {
+        font-size: 1.8rem;
+    }
+
+    .nav__title-text {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .nav__logo-name {
+        font-size: 1.2rem;
+    }
+
+    .nav__title-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 200px) {
+    .nav__logo-name {
+        font-size: 0.9rem;
+    }
+
+    .nav__title-text {
+        font-size: 1.1rem;
+    }
+}
+
+/* portfolio */
