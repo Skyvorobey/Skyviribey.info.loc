@@ -213,6 +213,10 @@ ul {
     padding: 0.5em;
 }
 
+.nav__item--active {
+    font-weight: 600;
+}
+
 .nav__blog {
     list-style-type: circle;
     list-style-position: inside;
@@ -315,9 +319,13 @@ ul {
         width: 1.6em;
         align-self: center;
     }
+
+    .nav__bird-logo a {
+        height: 1.2em;
+    }
+
     .nav__item {
         list-style: none;
-
     }
 
     .nav__item a {
@@ -364,3 +372,133 @@ ul {
 }
 
 /* portfolio */
+/* blog */
+/* contacts */
+/* about */
+
+.about-wrapper {
+    padding: 0;
+    /* обдумать фон и удалить запись*/
+    background-color: #353535;
+    width: 100%;
+    height: 90vh;
+    background-image: url("/img/i_bac3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 59% 45%;
+}
+
+.about-wrapper-backgraund {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2em;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0.2em;
+    margin: 0.1em;
+    width: 30%;
+    height: 33%;
+    background-color: rgba(0, 0, 0, 0.3);
+    flex-grow: 1;
+    border: 1px groove #676767;
+}
+
+.container-item {
+    margin: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.container-item--line {
+    font-size: 1.1rem;
+    font-weight: 100;
+    opacity: 0.8;
+    padding-top: 1em;
+}
+
+.container-item--title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.container-item--underline {
+    border-bottom: outset;
+    border-bottom-width: thin;
+}
+
+.container--amazing h4 {
+    padding: 0.4em;
+}
+
+.container--amazing h3 {
+    padding: 0;
+}
+
+.container-item--adaptability h3 {
+    padding: 0;
+}
+
+.container-item--adaptability h4 {
+    padding: 0.4em;
+}
+
+.container--contacts a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px groove;
+}
+
+.container--contacts a:hover {
+    background-color: #ffffff;
+    border-radius: 0.4em;
+    color: black;
+    transition: 200ms;
+}
+
+.container--contacts a:focus {
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 0.4em;
+    color: black;
+}
+    /* footer */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.footer-item {
+    margin: 0;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.footer h4 {
+    font-weight: 400;
+}
+
+/*
+цвета для home
+background-color: #88887e;
+    color: white;
+
+ */
+@media (max-width: 550px) {
+    .footer-item {
+        font-size: 0.7rem;
+    }
+}

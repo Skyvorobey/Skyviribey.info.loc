@@ -1,6 +1,6 @@
 <?php
 $title = 'Проекты и Работы';
-
+$active = 'portfolio';
 include __DIR__. '/header.php';
 include __DIR__. '/nav.php' ?>
 

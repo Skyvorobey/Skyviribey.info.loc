@@ -1,5 +1,6 @@
 <?php
 $title = 'Блог';
+$active = 'blog';
 
 include __DIR__. '/header.php';
 include __DIR__. '/nav.php' ?>
