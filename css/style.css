@@ -18,6 +18,10 @@ ul {
     padding: 0;
 }
 
+.main {
+    text-align: -webkit-center;
+}
+
 .visual-hidden {
     position: absolute;
     width: 1px;
@@ -280,8 +284,15 @@ ul {
     }
 
     .nav__title {
-        width: 100%;
         order: 3;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        clip: rect(0000);
+        overflow: hidden;
     }
 
     .nav__title h3 {
@@ -378,10 +389,9 @@ ul {
 
 .about-wrapper {
     padding: 0;
-    /* обдумать фон и удалить запись*/
     background-color: #353535;
+    max-width: 1400px;
     width: 100%;
-    height: 90vh;
     background-image: url("/img/i_bac3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -405,11 +415,11 @@ ul {
     text-align: center;
     padding: 0.2em;
     margin: 0.1em;
-    width: 30%;
-    height: 33%;
+    min-width: 24em;
+    min-height: 25vh;
     background-color: rgba(0, 0, 0, 0.3);
     flex-grow: 1;
-    border: 1px groove #676767;
+    border: 1px solid #363941;
 }
 
 .container-item {
@@ -422,11 +432,11 @@ ul {
     font-size: 1.1rem;
     font-weight: 100;
     opacity: 0.8;
-    padding-top: 1em;
+    padding: 0.4em;
 }
 
 .container-item--title {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 600;
     padding-bottom: 1em;
 }
@@ -434,10 +444,6 @@ ul {
 .container-item--underline {
     border-bottom: outset;
     border-bottom-width: thin;
-}
-
-.container--amazing h4 {
-    padding: 0.4em;
 }
 
 .container--amazing h3 {
@@ -448,29 +454,146 @@ ul {
     padding: 0;
 }
 
-.container-item--adaptability h4 {
-    padding: 0.4em;
-}
 
-.container--contacts a {
+.container-item a {
     color: #ffffff;
     text-decoration: none;
-    border-bottom: 1px groove;
+
 }
 
-.container--contacts a:hover {
-    background-color: #ffffff;
-    border-radius: 0.4em;
-    color: black;
-    transition: 200ms;
-}
 
-.container--contacts a:focus {
+.container-item a:focus {
     outline: none;
-    background-color: #ffffff;
-    border-radius: 0.4em;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0.3em;
     color: black;
 }
+
+.container-about {
+    order: 2;
+}
+
+.container--html {
+    order: 1;
+}
+
+.container--css {
+    order: 3;
+}
+
+.container--php {
+    order: 7;
+}
+
+.container--amazing {
+    order: 5;
+}
+
+.container--js {
+    order: 9;
+}
+
+.container--grid-and-flex {
+    order: 4;
+}
+
+.container-item--adaptability {
+    order: 6;
+}
+
+.container--contacts {
+    order: 8;
+}
+
+@media (max-width:1200px ) {
+    .container {
+        min-width: 18.5em;
+    }
+
+    .container-item--line {
+        font-size: 1rem;
+    }
+
+    .container-item--title {
+        font-size: 1.2rem;
+    }
+
+    .container-item--logo svg{
+        width: 65px;
+        width: 65px;
+    }
+}
+
+@media (max-width:905px ) {
+    .container {
+        min-width: 15.3em;
+    }
+
+    .container-item--line {
+        font-size: 0.8rem;
+    }
+
+    .container-item--title {
+        font-size: 1rem;
+    }
+
+    .container-item--logo svg{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width:750px ) {
+    .container {
+        min-height: 20vh;
+    }
+    .container h3 {
+        font-size: 1.3rem;
+        padding: 0.5em;
+        border-bottom: none;
+    }
+
+    .container h4 {
+        font-size: 0.7rem;
+        padding: 0;
+    }
+
+    .container-about {
+        min-width: 100%;
+        order: 1;
+    }
+
+    .container--html {
+        order: 2;
+    }
+
+    .container--amazing {
+        min-width: 100%;
+        order: 1;
+    }
+
+    .container--contacts {
+        min-width: 100%;
+        order: 9;
+    }
+
+}
+
+@media (max-width:550px) {
+    .container {
+        min-width: 100%;
+        min-height: 15vh;
+    }
+
+    .container h3 {
+        font-size: 1.2rem;
+        padding: 0.3em;
+
+    }
+
+}
+
+
     /* footer */
 
 .footer {
@@ -490,6 +613,8 @@ ul {
 .footer h4 {
     font-weight: 400;
 }
+
+
 
 /*
 цвета для home

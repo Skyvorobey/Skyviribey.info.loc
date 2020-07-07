@@ -5,13 +5,13 @@ $active = 'about';
 include __DIR__. '/header.php';
 include __DIR__. '/nav.php' ?>
 
-<main>
+<main class="main">
 
     <div class="about-wrapper">
         <div class="about-wrapper-backgraund">
             <div class="container container-about">
                <h4 class="container-item container-item--line">
-                  Салют! Меня зовут
+                    Меня зовут
                </h4>
                 <h3 class="container-item container-item--title container-item--underline">
                     Владислав Жвирблис
@@ -103,17 +103,14 @@ include __DIR__. '/nav.php' ?>
 
             </div>
             <div class="container container--amazing">
-                <h4 class="container-item container-item--line">
-                    Вдохнавляюсь
-                </h4>
                 <h3 class="container-item container-item--title">
-                    Яркими личностями
+                    <a href="/portfolio.php">Созидаю</a>
                 </h3>
                 <h4 class="container-item container-item--line">
                     И
                 </h4>
                 <h3 class="container-item container-item--title">
-                    Интересными проектами
+                    <a href="/blog.php">Созерцаю</a>
                 </h3>
 
             </div>
@@ -148,25 +145,24 @@ include __DIR__. '/nav.php' ?>
                     Знаю
                 </h4>
                 <h3 class="container-item container-item--title">
+                    Адаптивность<br>
                     Grid и Flex
                 </h3>
             </div>
 
             <div class="container container-item--adaptability">
                 <h4 class="container-item container-item--line">
-                    Умею
+                    Знаю
                 </h4>
                 <h3 class="container-item container-item--title">
-                    Автоматизировать Адаптировать Оптимизировать
+                    Автоматизацию<br>
+                    Оптимизацию
                 </h3>
-                <h4 class="container-item container-item--line">
-                    Процессы на сайте
-                </h4>
             </div>
 
             <div class="container container--contacts">
                 <h4 class="container-item container-item--line">
-                    Пожелания и сотрудничиство
+                    Пожелания и сотрудничество
                 </h4>
                 <h3 class="container-item container-item--title">
                     <a href="/contacts.php">Контакты</a>
