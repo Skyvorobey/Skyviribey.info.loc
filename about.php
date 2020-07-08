@@ -1,11 +1,11 @@
 <?php
 $title = 'Обо Мне';
 $active = 'about';
-
+$titleclass = '--about';
 include __DIR__. '/header.php';
 include __DIR__. '/nav.php' ?>
 
-<main class="main">
+<main class="main about">
 
     <div class="about-wrapper">
         <div class="about-wrapper-backgraund">
@@ -30,7 +30,7 @@ include __DIR__. '/nav.php' ?>
                     Мой хороший друг
                 </h4>
                 <h3 class="container-item container-item--title">
-                    Html 5
+                    Html
                 </h3>
                 <div class="container-item container-item--logo" >
                     <svg width="80px" height="80px" fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -60,7 +60,7 @@ include __DIR__. '/nav.php' ?>
                     И хорошая подруга
                 </h4>
                 <h3 class="container-item container-item--title">
-                    CSS 3
+                    CSS
                 </h3>
                 <div class="container-item container-item--logo">
                         <svg height="80px" width="80px" fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -103,11 +103,14 @@ include __DIR__. '/nav.php' ?>
 
             </div>
             <div class="container container--amazing">
+                <h4 class="container-item container-item--line">
+                    Немного
+                </h4>
                 <h3 class="container-item container-item--title">
                     <a href="/portfolio.php">Созидаю</a>
                 </h3>
                 <h4 class="container-item container-item--line">
-                    И
+                    И Много
                 </h4>
                 <h3 class="container-item container-item--title">
                     <a href="/blog.php">Созерцаю</a>

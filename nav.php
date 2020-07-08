@@ -1,13 +1,14 @@
 <header>
-    <nav class="nav">
+    <nav class="nav nav__backgraund nav__backgraund<?php echo $titleclass?>">
         <div class="nav__logo">
             <h2 class="nav__logo-name">SkyVorobey</h2>
         </div>
 
+        <!-- нужно ли?
         <div class="nav__title">
             <h3 class="nav__title-text"><?php echo $title ?></h3>
         </div>
-
+        -->
         <div class="nav__item-wrapper">
             <ul class="nav__menu">
                 <?php
