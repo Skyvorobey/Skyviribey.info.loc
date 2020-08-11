@@ -8,7 +8,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    background-color: #fafafa;
+    background-color: #1f1f1f;
 }
 
 ul {
@@ -37,11 +37,12 @@ ul {
     display: flex;
     width: 100%;
     min-height: 100vh;
-    background-color: #32353b;
+    background-color: #1f1f1f;
     background-repeat: no-repeat;
     background-size: cover;
     user-select: none;
-    background-image: url("/img/homebackgraund.png");
+    background-image: url("/img/homebackgraund.jpg");
+    font-family: 'Cormorant', serif;
 }
 
 .home__wrapper--backgraund {
@@ -68,6 +69,7 @@ ul {
     padding: 0.5em;
     margin: 0.5em;
 }
+
 
 .home__welcome-item {
     font-size: 1.4rem;
@@ -191,6 +193,12 @@ ul {
 
 .nav__logo {
     text-align: center;
+}
+
+.nav__logo a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
 }
 
 .nav__logo-name {
@@ -872,3 +880,84 @@ ul {
         width: 15em;
     }
 }
+
+//* portfolio *//
+
+.grid {
+    box-sizing: border-box;
+    width: 100%;
+    background: black;
+    padding: 10px;
+}
+.grid__container {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #ffffff;
+}
+
+.box {
+    position: relative;
+    box-sizing: border-box;
+    width: 20%;
+}
+.box::before {
+    content: "";
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+}
+.box__helper {
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box__content {
+    border: 2px solid #ffffff;
+    padding: 0.5em 1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.box_size_2x2 {
+    width: 40%;
+}
+.box_size_2x2::before {
+    padding-bottom: 50%;
+}
+.box_size_2x2 + .box + .box + .box + .box {
+    margin-left: 40%;
+}
+.box_size_2x1 {
+    width: 40%;
+}
+.box_size_2x1::before {
+    padding-bottom: 50%;
+}
+.box_size_2x1 .box__helper {
+    padding-bottom: 50%;
+}
+
+.box__content {
+    font-size: 30px;
+    background-color: #252525;
+    color: #ffffff;
+}
+
+.box:nth-child(5) .box__content,
+.box:nth-child(9) .box__content,
+.box:nth-child(11) .box__content,
+.box:nth-child(19) .box__content,
+.box:nth-child(21) .box__content {
+    background-color: #ffc400;
+    color: #000000;
+}
+
+

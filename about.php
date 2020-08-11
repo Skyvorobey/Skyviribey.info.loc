@@ -1,5 +1,5 @@
 <?php
-$title = 'Обо Мне';
+$title = 'Об Авторе';
 $active = 'about';
 $titleclass = '--about';
 include __DIR__. '/header.php';
@@ -76,7 +76,7 @@ include __DIR__. '/nav.php' ?>
 
             <div class="container container--php">
                 <h4 class="container-item container-item--line">
-                    Познаю
+                    Понимаю
                 </h4>
                 <h3 class="container-item container-item--title">
                     PHP
@@ -120,7 +120,7 @@ include __DIR__. '/nav.php' ?>
 
             <div class="container container--js">
                 <h4 class="container-item container-item--line">
-                    Знакомлюсь
+                    Понимаю
                 </h4>
                 <h3 class="container-item container-item--title">
                     JS
@@ -158,8 +158,7 @@ include __DIR__. '/nav.php' ?>
                     Знаю
                 </h4>
                 <h3 class="container-item container-item--title">
-                    Автоматизацию<br>
-                    Оптимизацию
+                    GIT
                 </h3>
             </div>
 
