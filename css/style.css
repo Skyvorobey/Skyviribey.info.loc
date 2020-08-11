@@ -173,17 +173,17 @@ ul {
 }
 
 .nav__backgraund {
-    background-color: #eeeeee;
+    background-color: #1f1f1f;
 }
 
-.nav__backgraund--contacts {
-    background-color: #353535;
+//*.nav__backgraund--contacts {
+    background-color: #1f1f1f;
 }
 
 .nav__backgraund--blog {
-    background-color: #374046;
+    background-color: #1f1f1f;
 }
-
+*//
 
 .nav__title {
     text-align: center;
@@ -200,6 +200,7 @@ ul {
     font-weight: 300;
     margin: 0;
     margin-top: 0.5em;
+    color: #fff;
 }
 
 .nav__title-text {
@@ -225,6 +226,7 @@ ul {
     margin: 0;
     margin-top: 0.6em;
     padding: 0.5em;
+    color: #fff;
 }
 
 .nav__item--active {
@@ -243,7 +245,7 @@ ul {
 
 .nav__item--backgraund a {
     text-decoration: none;
-    color: #000000;
+    color: #fff;
     opacity: 0.7;
     padding: 0.1em 0.3em;
     border-radius: 0.7em;
@@ -255,7 +257,7 @@ ul {
 }
 
 .nav__bird-logo a {
-    padding: 0.7em 0.1em 0.1em 0.1em;color: #000000;
+    padding: 0.7em 0.1em 0.1em 0.1em;
     opacity: 0.7;
     border-radius: 0.6em;
 }
@@ -395,7 +397,7 @@ ul {
 
 .about-wrapper {
     padding: 0em;
-    background-color: #353535;
+    background-color: #1f1f1f;
     max-width: 1400px;
     width: 100%;
     background-image: url("/img/i_bac3.jpg");
@@ -607,7 +609,7 @@ ul {
     width: 100%;
     max-width: 1400px;
     padding: 1em;
-    background-color: #353535;
+    background-color: #1f1f1f;
 }
 
 .contacts__about {
@@ -645,6 +647,7 @@ ul {
     max-width: 20em;
     align-self: center;
     margin: 0.5em;
+    color: rgba(203, 203, 203, 0.8);
 }
 
 @media (max-width: 550px) {
@@ -661,7 +664,7 @@ ul {
 
 /* blog-nav */
 .blog-nav {
-    background-color: #374046;
+    background-color: #1f1f1f;
 }
 
 .blog-nav__menu {
@@ -680,7 +683,7 @@ ul {
     text-align: center;
     margin: 0.1em;
     padding: 0.3em;
-    color: #000;
+    color: #b8b8b8;
     font-size: 0.8rem;
     border-radius: 0.7em;
 
@@ -703,21 +706,22 @@ ul {
 }
 
 .footer-backgraund {
-    background-color: #eeeeee;
+    background-color: #1f1f1f;
 }
 
 .footer-backgraund--contacts {
-    background-color: #353535;
+    background-color: #1f1f1f;
 }
 
 .footer-backgraund--blog {
-    background-color: #374046;
+    background-color: #1f1f1f;
 }
 .footer-item {
     margin: 0;
     text-align: center;
     font-size: 0.8rem;
     font-weight: 300;
+    color: rgba(255, 255, 255, 0.8 );
 }
 
 .footer h4 {
@@ -733,7 +737,7 @@ ul {
     /* Блог */
 
 .blog-wrapper {
-    background-color: #374046;
+    background-color: #1f1f1f;
     margin: 0;
     padding: 0;
     display: flex;
@@ -757,6 +761,7 @@ ul {
     font-size: 1.6rem;
     width: 100%;
 }
+
 
 .blog__title--blog {
     background-color: #ff9800;
