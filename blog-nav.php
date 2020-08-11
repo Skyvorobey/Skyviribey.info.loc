@@ -7,15 +7,15 @@
         </li>
 
         <li class="blog-nav__item blog-nav__work">
-            <a href="/*">Работы</a>
+            <a href="/*">Блог</a>
         </li>
 
         <li class="blog-nav__item blog-nav__health">
-            <a href="/*">Здоровье</a>
+            <a href="/*">Проект</a>
         </li>
 
         <li class="blog-nav__item blog-nav__site">
-            <a href="/*">Сайт</a>
+            <a href="/*">Фото</a>
         </li>
 
     </ul>

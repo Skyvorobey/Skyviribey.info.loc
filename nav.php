@@ -26,7 +26,7 @@
                     <a href="/contacts.php">Контакты</a>
                 </li>',
                 'about' => '<li class="nav__item nav__item--backgraund nav__about nav__item' . (($active == 'about') ? '--active' : '') . '">
-                    <a href="/about.php">Обо Мне</a>
+                    <a href="/about.php">О Авторе</a>
                 </li>',
                 ];
 

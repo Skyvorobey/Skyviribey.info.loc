@@ -30,7 +30,7 @@ include __DIR__. '/header.php'; ?>
                     <a href="/contacts.php"  class="home__item">контакты</a>
                 </li>
                 <li>
-                    <a href="/about.php"  class="home__item">обо мне</a>
+                    <a href="/about.php"  class="home__item">о авторе</a>
                 </li>
             </ul>
 

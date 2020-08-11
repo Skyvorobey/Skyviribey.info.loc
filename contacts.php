@@ -11,7 +11,7 @@ include __DIR__. '/nav.php' ?>
         <div class="contacts__about">
             <div class="contacts__container contacts__telegram">
                 <a class="contacts__item contacts__logo" href="tg://resolve?domain=@skyvorobey">
-                    <svg height="100px" width="100px" fill="#b19090" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <svg height="100px" width="100px" fill="#000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
     <g>
@@ -55,7 +55,7 @@ include __DIR__. '/nav.php' ?>
 
             <div class="contacts__container contacts__mail">
                 <a class="contacts__item contacts__logo" href="mailto:Skyvorobey@icloud.com?subject=По поводу Веб-разработки">
-                    <svg width="100px" height="100px" fill="#b19090" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <svg width="100px" height="100px" fill="#000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
     <g>
@@ -83,7 +83,7 @@ include __DIR__. '/nav.php' ?>
 
             <div class="contacts__container contacts__vk">
                 <a class="contacts__item contacts__logo" href="https://vk.com/skyvorobey">
-                    <svg height="100px" width="100px"  fill="#b19090" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <svg height="100px" width="100px"  fill="#000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                                         viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
     <g>
