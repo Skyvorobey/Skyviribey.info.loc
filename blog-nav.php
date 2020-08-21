@@ -1,3 +1,4 @@
+<!-- Требует доработки в php
 <section class="blog-nav">
 
     <ul class="blog-nav__menu">
@@ -21,3 +22,5 @@
     </ul>
 
 </section>
+
+-->
