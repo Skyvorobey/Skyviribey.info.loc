@@ -27,7 +27,7 @@ include __DIR__. '/nav.php' ?>
 
             <div class="container container--html">
                 <h4 class="container-item container-item--line">
-                    Мой хороший друг
+                    Знаю
                 </h4>
                 <h3 class="container-item container-item--title">
                     Html
@@ -57,7 +57,7 @@ include __DIR__. '/nav.php' ?>
 
             <div class="container container--css">
                 <h4 class="container-item container-item--line">
-                    И хорошая подруга
+                    Знаю
                 </h4>
                 <h3 class="container-item container-item--title">
                     CSS
@@ -76,7 +76,7 @@ include __DIR__. '/nav.php' ?>
 
             <div class="container container--php">
                 <h4 class="container-item container-item--line">
-                    Понимаю
+                    Знаю
                 </h4>
                 <h3 class="container-item container-item--title">
                     PHP
@@ -120,7 +120,7 @@ include __DIR__. '/nav.php' ?>
 
             <div class="container container--js">
                 <h4 class="container-item container-item--line">
-                    Понимаю
+                    Знаю
                 </h4>
                 <h3 class="container-item container-item--title">
                     JS

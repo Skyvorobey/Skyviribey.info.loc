@@ -538,6 +538,22 @@ ul {
         width: 65px;
         height: 65px;
     }
+
+    .container-about {
+        order: 1;
+    }
+
+    .container--html {
+        order: 2;
+    }
+
+    .container--js {
+        order: 8;
+    }
+
+    .container--contacts {
+        order: 9;
+    }
 }
 
 @media (max-width:905px ) {
@@ -632,6 +648,7 @@ ul {
     padding: 1em;
     margin: 0.5em;
     max-width: 20em;
+    align-items: center;
 }
 
 .contacts__item {
